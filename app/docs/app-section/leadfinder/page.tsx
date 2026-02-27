@@ -143,7 +143,7 @@ export default function LeadFinderPage() {
         <div className="flex-1 w-full lg:ml-64 xl:ml-72 transition-all duration-300">
           <div className="flex">
             <main className="flex-1 min-w-0 px-6 sm:px-10 lg:px-14 py-10">
-              <div className="max-w-3xl">
+              <div className="max-w-4xl">
 
                 {/* Breadcrumb */}
                 <motion.nav initial={{ opacity:0, x:-10 }} animate={{ opacity:1, x:0 }}
@@ -177,7 +177,7 @@ export default function LeadFinderPage() {
                 {/* ── LeadFinder Credits ── */}
                 <motion.div id="leadfinder-credits" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }}
                   transition={{ delay:0.12 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Lead Finder Credits</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Lead Finder Credits</h2>
 
                   <div className="grid sm:grid-cols-2 gap-3 mb-4">
                     {CREDIT_COSTS.map((c, i) => {
@@ -221,7 +221,7 @@ export default function LeadFinderPage() {
                 {/* ── Left panel filters (with interactive mockup) ── */}
                 <motion.div id="left-panel-filters" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }}
                   transition={{ delay:0.16 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Left panel lead filters:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Left panel lead filters:</h2>
 
                   {/* LeadFinder UI Mockup */}
                   <div className="rounded-2xl border border-gray-200 overflow-hidden shadow-md mb-5">
@@ -351,7 +351,7 @@ export default function LeadFinderPage() {
                 {/* ── Apply filters ── */}
                 <motion.div id="apply-filters" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }}
                   transition={{ delay:0.2 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Apply filters to target your ideal prospects:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Apply filters to target your ideal prospects:</h2>
 
                   <div className="grid sm:grid-cols-2 gap-3 mb-5">
                     {[
@@ -404,7 +404,7 @@ export default function LeadFinderPage() {
                 {/* ── Center panel results ── */}
                 <motion.div id="center-panel-results" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }}
                   transition={{ delay:0.25 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Center panel search results:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Center panel search results:</h2>
                   <p className="text-sm text-gray-600 leading-relaxed mb-5">
                     Once you apply at least one filter, the center panel displays a list of matching
                     prospects. Each result shows the contact's name, job title, company, location, and
@@ -443,7 +443,7 @@ export default function LeadFinderPage() {
                 {/* ── Top bar credit management ── */}
                 <motion.div id="top-bar-credits" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }}
                   transition={{ delay:0.3 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Top bar credit management:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Top bar credit management:</h2>
 
                   {/* Credit bar mockup */}
                   <div className="rounded-xl border border-gray-200 overflow-hidden shadow-sm mb-5">
@@ -482,7 +482,7 @@ export default function LeadFinderPage() {
                 {/* ── Top right lead actions ── */}
                 <motion.div id="top-right-actions" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }}
                   transition={{ delay:0.35 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Top right lead actions:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Top right lead actions:</h2>
                   <p className="text-sm text-gray-600 leading-relaxed mb-5">
                     Once your search returns results, use the action buttons in the top-right area of
                     the center panel to manage and import your discovered leads.

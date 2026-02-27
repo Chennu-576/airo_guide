@@ -134,7 +134,7 @@ export default function CampaignDashboardPage() {
         <div className="flex-1 w-full lg:ml-64 xl:ml-72 transition-all duration-300">
           <div className="flex">
             <main className="flex-1 min-w-0 px-6 sm:px-10 lg:px-14 py-10">
-              <div className="max-w-3xl">
+              <div className="max-w-4xl">
 
                 {/* Breadcrumb */}
                 <motion.nav initial={{ opacity:0, x:-10 }} animate={{ opacity:1, x:0 }}
@@ -159,7 +159,7 @@ export default function CampaignDashboardPage() {
 
                 {/* What is the dashboard */}
                 <motion.div id="what-is-dashboard" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.1 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">What is the campaign dashboard and how it helps</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">What is the campaign dashboard and how it helps</h2>
 
                   {/* Dashboard screenshot */}
                   <div className="rounded-2xl border border-gray-200 overflow-hidden shadow-md mb-5">
@@ -202,7 +202,7 @@ export default function CampaignDashboardPage() {
 
                 {/* Performance Overview */}
                 <motion.div id="performance-overview" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.15 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-1">Performance overview metrics</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-1">Performance overview metrics</h2>
                   <p className="text-sm text-gray-500 mb-5 leading-relaxed">
                     When you open the 360Airo dashboard you will see a <strong className="text-gray-700">Performance Overview</strong> section
                     that tracks your email marketing metrics in real-time across all active campaigns.
@@ -247,7 +247,7 @@ export default function CampaignDashboardPage() {
 
                 {/* Viewing campaign info */}
                 <motion.div id="viewing-campaigns" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.2 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Viewing campaign information:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Viewing campaign information:</h2>
                   <div className="rounded-xl border border-gray-200 overflow-hidden shadow-sm mb-5">
                     <div className="bg-gray-50 border-b border-gray-200 px-4 py-2.5 flex flex-wrap items-center gap-2">
                       <div className="flex items-center gap-1.5 bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-xs text-gray-500 flex-1 min-w-[140px] max-w-xs">
@@ -309,7 +309,7 @@ export default function CampaignDashboardPage() {
 
                 {/* Managing campaigns */}
                 <motion.div id="managing-campaigns" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.3 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Managing campaigns:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Managing campaigns:</h2>
                   <div className="space-y-3">
                     {[
                       { step:"01", title:"Create a new campaign",   desc:'Click the blue "Create campaign" button at the top right of the dashboard. Choose between Email, LinkedIn, Multichannel Drip, or Calling campaigns.' },
@@ -334,7 +334,7 @@ export default function CampaignDashboardPage() {
 
                 {/* Quick Actions */}
                 <motion.div id="quick-actions" initial={{ opacity:0, y:10 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.35 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-1">Quick actions</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-1">Quick actions</h2>
                   <p className="text-sm text-gray-500 mb-5">Jump into your most common tasks directly from the dashboard.</p>
                   <div className="grid sm:grid-cols-3 gap-4">
                     {QUICK_ACTIONS.map((action, i) => {

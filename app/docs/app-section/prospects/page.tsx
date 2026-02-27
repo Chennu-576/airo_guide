@@ -131,7 +131,7 @@ export default function ProspectsPage() {
         <div className="flex-1 w-full lg:ml-64 xl:ml-72 transition-all duration-300">
           <div className="flex">
             <main className="flex-1 min-w-0 px-6 sm:px-10 lg:px-14 py-10">
-              <div className="max-w-3xl">
+              <div className="max-w-4xl">
 
                 {/* Breadcrumb */}
                 <motion.nav initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}
@@ -165,7 +165,7 @@ export default function ProspectsPage() {
                 {/* ── Viewing prospects ── */}
                 <motion.div id="viewing-prospects" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.12 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Viewing prospect information:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Viewing prospect information:</h2>
 
                   {/* Prospects table mockup */}
                   <div className="rounded-2xl border border-gray-200 overflow-hidden shadow-md mb-5">
@@ -289,7 +289,7 @@ export default function ProspectsPage() {
                 {/* ── Adding prospects ── */}
                 <motion.div id="adding-prospects" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.2 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Adding prospects:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Adding prospects:</h2>
 
                   <div className="grid sm:grid-cols-3 gap-3 mb-5">
                     {[
@@ -341,7 +341,7 @@ export default function ProspectsPage() {
                 {/* ── Filtering prospects ── */}
                 <motion.div id="filtering-prospects" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.25 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Filtering prospects:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Filtering prospects:</h2>
 
                   {/* Filter options visual */}
                   <div className="rounded-xl border border-gray-200 overflow-hidden shadow-sm mb-5">
@@ -396,7 +396,7 @@ export default function ProspectsPage() {
                 {/* ── Managing prospects ── */}
                 <motion.div id="managing-prospects" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Managing prospects:</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-4">Managing prospects:</h2>
                   <div className="space-y-3">
                     {[
                       { step:"01", title:"View prospect profile",    desc:"Click any prospect name to open their full profile — contact info, company details, active campaigns, email history, and LinkedIn activity." },
@@ -426,7 +426,7 @@ export default function ProspectsPage() {
                 {/* ── Bulk actions ── */}
                 <motion.div id="bulk-actions" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.35 }} className="mb-10">
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">Bulk actions</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-2">Bulk actions</h2>
                   <p className="text-sm text-gray-500 mb-5 leading-relaxed">
                     Select multiple prospects using the checkboxes to perform actions on your entire selection at once.
                   </p>

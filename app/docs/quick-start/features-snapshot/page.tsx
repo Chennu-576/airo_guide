@@ -394,7 +394,7 @@ export default function FeaturesSnapshotPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.2 }}
                 >
-                  <h2 className="text-lg font-bold text-gray-900 mb-3">
+                  <h2 className="text-xl font-bold text-gray-900 mb-3">
                     Channels, Email & Auto-Pause
                   </h2>
                   <FeatureTable cols={FLAT_TABLE_COLS} />
@@ -406,7 +406,7 @@ export default function FeaturesSnapshotPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.25 }}
                 >
-                  <h2 className="text-lg font-bold text-gray-900 mb-3">
+                  <h2 className="text-xl font-bold text-gray-900 mb-3">
                     AI Content, Warmup & Analytics
                   </h2>
                   <FeatureTable cols={FLAT_TABLE_COLS2} />
@@ -418,7 +418,7 @@ export default function FeaturesSnapshotPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
                 >
-                  <h2 className="text-lg font-bold text-gray-900 mb-3">
+                  <h2 className="text-xl font-bold text-gray-900 mb-3">
                     LeadFinder, Team & Integrations
                   </h2>
                   <FeatureTable cols={FLAT_TABLE_COLS3} />
@@ -430,7 +430,7 @@ export default function FeaturesSnapshotPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.35 }}
                 >
-                  <h2 className="text-lg font-bold text-gray-900 mb-4">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">
                     Feature Details
                   </h2>
                   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">

@@ -403,7 +403,6 @@ const sidebarCategories = [
       { id: 'campaign-dashboard',    title: 'Campaign dashboard' },
       { id: 'prospects',         title: 'Prospects' },
       { id: 'leadfinder',         title: 'LeadFinder' },
-      { id: 'settings',         title: 'Settings' },
     ],
   },
 
@@ -412,12 +411,12 @@ const sidebarCategories = [
     title: 'Create Campaigns',
     icon: 'Megaphone',
     articles: [
+      { id: 'email-list',       title: 'Email List' },
+      { id: 'email-account',   title: 'Email Account' },
+      { id: 'email-warmup',       title: 'Email Warmup' },
       { id: 'email-campaign',      title: 'Email Campaign' },
-      { id: 'multichannel-drip',   title: 'Multichannel Drip' },
-      { id: 'adding-prospects',    title: 'Adding Prospects' },
-      { id: 'channel-setup',       title: 'Channel Setup' },
-      { id: 'campaign-settings',   title: 'Campaign Settings' },
-      { id: 'preview-start',       title: 'Preview & Start' },
+      { id: 'ai-email-campaign',   title: 'AI Email Campaign' },
+      { id: 'manual-campaign',    title: 'Manual Campaign' },
     ],
   },
   {
