@@ -403,6 +403,8 @@ const sidebarCategories = [
       { id: 'campaign-dashboard',    title: 'Campaign dashboard' },
       { id: 'prospects',         title: 'Prospects' },
       { id: 'leadfinder',         title: 'LeadFinder' },
+      { id: 'settings',         title: 'settings' },
+
     ],
   },
 
@@ -419,23 +421,22 @@ const sidebarCategories = [
       { id: 'manual-campaign',    title: 'Manual Campaign' },
     ],
   },
-  {
-    id: 'buy-domains-mailboxes',
-    title: 'Buy Secondary Domains & Mailboxes',
-    icon: 'Globe',
-    articles: [
-      { id: 'buy-domains-emails',  title: 'How to buy secondary domains & emails?' },
-    ],
-  },
+  // {
+  //   id: 'buy-domains-mailboxes',
+  //   title: 'Buy Secondary Domains & Mailboxes',
+  //   icon: 'Globe',
+  //   articles: [
+  //     { id: 'buy-domains-emails',  title: 'How to buy secondary domains & emails?' },
+  //   ],
+  // },
   {
     id: 'channel-support',
     title: 'Channel Support',
     icon: 'Wifi',
     articles: [
-      { id: 'email',               title: 'Email (Google Workspace, Microsoft 365, SMTP, SendGrid, Mailgun, Amazon SES)' },
-      { id: 'linkedin',            title: 'LinkedIn (Automation & Semi-automation/Co-pilot)' },
-      { id: 'cold-calling',        title: 'Cold Calling' },
-      { id: 'whatsapp',            title: 'WhatsApp' },
+      { id: 'google-o-auth',       title: 'Google OAuth Setup'},
+      { id: 'google-app-password',            title: 'Google App Password' },
+      { id: 'microsoft365',        title: 'Microsoft 365' },
     ],
   },
   {
@@ -445,34 +446,28 @@ const sidebarCategories = [
     articles: [
       { id: 'inbox-warmup',        title: 'Inbox Warmup' },
       { id: 'spam-deliverability', title: 'Spam & Deliverability' },
-      { id: 'throttling',          title: 'Email Throttling' },
       { id: 'esp-matching',        title: 'ESP Matching' },
-      { id: 'block-lists',         title: 'Block Lists' },
-      { id: 'blacklist-monitoring',title: 'Blacklist Monitoring' },
       { id: 'custom-tracking',     title: 'Custom Tracking Domains' },
-      { id: 'spintax',             title: 'Spintax' },
       { id: 'inbox-rotation',      title: 'Inbox Rotation' },
     ],
   },
-  {
-    id: 'spf-dkim-dmarc',
-    title: 'SPF/DKIM/DMARC Setup',
-    icon: 'Shield',
-    articles: [
-      { id: 'godaddy',             title: 'GoDaddy' },
-      { id: 'namecheap',           title: 'Namecheap' },
-      { id: 'hostgator',           title: 'Hostgator' },
-      { id: 'microsoft-365',       title: 'Microsoft 365' },
-      { id: 'google-workspace',    title: 'Google Workspace' },
-    ],
-  },
+  // {
+  //   id: 'spf-dkim-dmarc',
+  //   title: 'SPF/DKIM/DMARC Setup',
+  //   icon: 'Shield',
+  //   articles: [
+  //     { id: 'godaddy',             title: 'GoDaddy' },
+  //     { id: 'namecheap',           title: 'Namecheap' },
+  //     { id: 'hostgator',           title: 'Hostgator' },
+  //     { id: 'microsoft-365',       title: 'Microsoft 365' },
+  //     { id: 'google-workspace',    title: 'Google Workspace' },
+  //   ],
+  // },
   {
     id: 'ai-automation',
     title: 'AI Automation',
     icon: 'Bot',
     articles: [
-      { id: 'sentiment-classifier',title: 'Sentiment Classifier Agent' },
-      { id: 'out-of-office',       title: 'Out-of-Office Detection & Rescheduling' },
       { id: 'ai-response',         title: 'AI Response Agent' },
       { id: 'workflow-automation', title: 'Workflow Automation' },
     ],
