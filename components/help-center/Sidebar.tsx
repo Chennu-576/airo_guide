@@ -445,10 +445,7 @@ const sidebarCategories = [
     icon: 'Mail',
     articles: [
       { id: 'inbox-warmup',        title: 'Inbox Warmup' },
-      { id: 'spam-deliverability', title: 'Spam & Deliverability' },
       { id: 'esp-matching',        title: 'ESP Matching' },
-      { id: 'custom-tracking',     title: 'Custom Tracking Domains' },
-      { id: 'inbox-rotation',      title: 'Inbox Rotation' },
     ],
   },
   // {
@@ -472,43 +469,84 @@ const sidebarCategories = [
       { id: 'workflow-automation', title: 'Workflow Automation' },
     ],
   },
+
   {
-    id: 'integrations',
-    title: 'Integrations',
-    icon: 'Puzzle',
+    id: 'linkedin-outreach',
+    title: 'LinkedIn Outreach',
+    icon: 'Linkedin',
     articles: [
-      { id: 'hubspot',             title: 'HubSpot' },
-      { id: 'salesforce',          title: 'Salesforce' },
-      { id: 'zoho',                title: 'Zoho' },
-      { id: 'pipedrive',           title: 'Pipedrive' },
-      { id: 'zapier',              title: 'Zapier' },
-      { id: 'clay',                title: 'Clay' },
-      { id: 'make',                title: 'Make.com' },
-      { id: 'slack',               title: 'Slack' },
-      { id: 'calendly',            title: 'Calendly' },
-      { id: 'rb2b',                title: 'RB2B' },
-      { id: 'webhooks',            title: 'Webhooks' },
+      { id: 'linkedin-automation',         title: 'LinkedIn Automation' },
+      { id: 'linkedin-actions', title: 'LinkedIn Actions' },
+      { id: 'linkedin-semi-automation',         title: 'LinkedIn Semi Automation' },
+      { id: 'best-practices', title: 'Best Practices' },
+
     ],
   },
+
   {
-    id: 'team-management',
-    title: 'Team & Agency Management',
+    id: 'tasks',
+    title: 'Tasks',
+    icon: 'User',
+    articles: [
+      { id: 'multichannel-tasks',         title: 'multichannel-tasks' },
+      { id: 'run-daily-tasks', title: 'Run Daily Tasks' },
+    ],
+  },
+
+  {
+    id: 'personalization',
+    title: 'Personalization',
+    icon: ' BarChart',
+    articles: [
+      { id: 'A/B-testing',         title: 'A/B Testing' },
+      { id: 'run-daily-tasks', title: 'Run Daily Tasks' },
+    ],
+  },
+
+  // {
+  //   id: 'integrations',
+  //   title: 'Integrations',
+  //   icon: 'Puzzle',
+  //   articles: [
+  //     { id: 'hubspot',             title: 'HubSpot' },
+  //     { id: 'salesforce',          title: 'Salesforce' },
+  //     { id: 'zoho',                title: 'Zoho' },
+  //     { id: 'pipedrive',           title: 'Pipedrive' },
+  //     { id: 'zapier',              title: 'Zapier' },
+  //     { id: 'clay',                title: 'Clay' },
+  //     { id: 'make',                title: 'Make.com' },
+  //     { id: 'slack',               title: 'Slack' },
+  //     { id: 'calendly',            title: 'Calendly' },
+  //     { id: 'rb2b',                title: 'RB2B' },
+  //     { id: 'webhooks',            title: 'Webhooks' },
+  //   ],
+  // },
+  {
+    id: 'billing',
+    title: 'Billing',
     icon: 'Users',
     articles: [
-      { id: 'permissions',         title: 'Role-based Permissions' },
-      { id: '2fa',                 title: '2FA' },
-      { id: 'multi-client',        title: 'Multi-client Agency Features' },
+      { id: 'change-subscription-plan',         title: 'Change Subscription Plan' },
+      { id: 'billing-FAQs',        title: 'Billing FAQs' },
     ],
   },
   {
-    id: 'reports-analytics',
+    id: 'reports',
     title: 'Reports',
     icon: 'BarChart',
     articles: [
       { id: 'campaign-reports',    title: 'Campaign Reports' },
-      { id: 'email-reports',       title: 'Email Reports' },
       { id: 'multichannel-reports',title: 'Multichannel Reports' },
-      { id: 'tracking',            title: 'Open/Click Tracking' },
+      { id: 'track-emails',            title: 'Track Emails' },
+    ],
+  },
+
+    {
+    id: 'referral',
+    title: 'Referral',
+    icon: 'User',
+    articles: [
+      { id: 'referral-program',         title: 'Referral Program' },
     ],
   },
   {
