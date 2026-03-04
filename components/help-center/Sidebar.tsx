@@ -551,7 +551,7 @@ const sidebarCategories = [
   },
   {
     id: 'guides',
-    title: 'Guides & Cheat Sheets',
+    title: 'Guides',
     icon: 'BookOpen',
     articles: [
       { id: 'open-rates',          title: 'Best Practices for Open Rates' },
